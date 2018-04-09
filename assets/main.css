@@ -1021,7 +1021,6 @@ details.menu-project[open] summary {
   padding-left: 2.6rem;
   z-index: auto;
   width: 100%;
-  counter-reset: post;
 }
 
 .header-project{
@@ -1100,7 +1099,7 @@ details.menu-project[open] summary {
 }
 
 .title-post::before {
-  counter-increment: post;
+  counter-increment: post -1;
   content: ""counter(post)".";
   padding-right: 1rem;
   font-family: "questa-slab", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

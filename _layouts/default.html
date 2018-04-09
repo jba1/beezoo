@@ -12,7 +12,7 @@
             <div id="vr"></div>
             <details class="menu-project">
                 <summary>
-                  <h1 id="{{ page.title | escape }}">{{ page.title | escape }}</h1>
+                  <h1 id="{{ page.title | replace:'_', ' ' | escape }}">{{ page.title | escape }}</h1>
                 </summary>
                 {%- if page_paths -%}
                 <ul>
