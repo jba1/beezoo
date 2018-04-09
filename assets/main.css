@@ -369,7 +369,7 @@ summary{
   display: list-item;
   cursor: pointer;
   outline:none;
-  font-family: "futura-pt", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #080000;  
@@ -393,9 +393,13 @@ article{
   display: inline-grid;
 }
 
+:-webkit-any(article,aside,nav,section) h1 {
+  font-size: 1rem;
+}
+
 h1 {
   display: inline-grid;
-  font-family: "futura-pt", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #080000;
@@ -507,6 +511,7 @@ table {
   position: relative; }
 
 .site-title {
+  width: 7rem;
   font-size: 26px;
   font-weight: 300;
   line-height: 54px;
@@ -817,3 +822,295 @@ table {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/*Fonts*/
+@font-face {
+	font-family: 'questa';
+    src: url('fonts/questa.woff2') format('woff2'),
+         url('fonts/questa.woff') format('woff'),
+         url('fonts/questa.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+	font-family: 'questa-slab';
+    src: url('fonts/questa-slab.woff2') format('woff2'),
+         url('fonts/questa-slab.woff') format('woff'),
+         url('fonts/questa-slab.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+.wf-loading {
+  padding: 0;
+}
+   
+.wf-active {
+  padding: initial;
+}
+   
+.wf-inactive {
+
+}
+
+/*Styles*/
+body{
+  display: grid;
+  grid-template-columns: [site-nav] auto [site-main] 1fr;
+  grid-template-rows: [site-header] auto [site-content] auto [site-footer] auto;
+  grid-template-areas: "nav nav" "main main" "footer footer";
+  padding: 1rem;
+  margin: 1rem 4rem;
+}
+
+nav{
+  position: sticky;
+  display: inline-grid;
+  min-height: 100%;
+  width: 100%;
+  background-color: #FDFDFB;
+}
+
+nav a{
+  display: inline-grid;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+}
+
+nav a:hover{
+  background-color: #DD1D3C;
+}
+
+nav a img{
+  vertical-align: middle;
+    border-style: none;
+    height: 3rem;
+    padding: 1rem;
+}
+
+nav details{
+  display: inline-grid;
+}
+
+main{
+  position: relative;
+  grid-column-start: site-main;
+  grid-column-end: site-main;
+  grid-row-start: site-header;
+  grid-row-end: site-content;
+  grid-area: main;
+  border-bottom: 0.2rem solid #080000;
+}
+
+header {
+
+}
+
+footer{
+  grid-column-start: site-nav;
+  grid-column-end: site-main;
+  grid-row-start: site-footer;
+  grid-row-end: site-footer;
+}
+
+details{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: auto;
+}
+
+.menu-project{
+  border-bottom: 0.2rem solid #080000;
+}
+
+summary{
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #080000;  
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+details summary:hover{
+  background-color: #FFE06A;
+}
+
+details[open] summary{
+  background-color: #FFE06A;
+}
+
+details ol{
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 1rem;
+  border-top: 0.1rem solid #080000;
+  background-color: #FDFDFB;
+}
+
+article{
+  display: inline-grid;
+}
+
+h1 {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #080000;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+.menu-project h1{
+  padding-left: 1rem;
+}
+
+.menu-process h1{
+  padding-left: 1.3rem;
+}
+
+/*Project*/
+.nav-project{
+  top: 0;
+  z-index: 7;
+  height: 3.4rem;
+}
+
+.menu-project{
+  border-bottom: 0.2rem solid #080000;
+  border-top: 0.2rem solid #080000;
+}
+
+details.menu-project[open] summary {
+  border-bottom: 0.2rem solid #080000;
+}
+
+.menu-project ul{
+  background-color: #FDFDFB;
+}
+
+.menu-project li{
+  border-bottom: 0.1rem solid #080000;
+  padding: 0 0 0 3.6rem;
+}
+
+.menu-project a{
+  padding: 1rem;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+.project{
+  position: sticky;
+  top: 0;
+  padding-left: 2.6rem;
+  z-index: auto;
+  width: 100%;
+  counter-reset: post;
+}
+
+.header-project{
+  position: sticky;
+  z-index: 11;
+  top: 0;
+  pointer-events: none;
+  background-color: #FDFDFB;
+  height: 3.4rem;
+}
+
+.title-project{
+  font-size: 1rem;
+  padding: .8rem 1rem 0.8rem 1rem;
+  border-top: 0.1rem solid #080000;
+  border-bottom: 0.1rem solid #080000;
+  margin: .3rem 0;
+  display: flex;
+}
+
+/*Post*/
+.nav-post{
+  top: 3.4rem;
+  z-index: 6;
+  height: 3rem;
+}
+
+.menu-post{
+  z-index: 2;
+  border-bottom: 0.2rem solid #080000;
+}
+
+.menu-post[open] summary {
+  border-bottom: 0.1rem solid #080000;
+}
+
+.menu-post ol{
+  background-color: #FDFDFB;
+  border-top: 0.1rem solid #080000;
+  padding: 0;
+}
+
+.menu-post li{
+  border-bottom: 0.1rem solid #080000;
+  padding: 0 0 0 3.6rem;
+}
+
+.menu-post a{
+  padding: 1rem;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+.post{
+  position: relative;
+  z-index: auto;
+  margin-left: 2.6rem;
+}
+
+.header-post{
+  position: sticky;
+  z-index: 6;
+  top: 3.4rem;
+  height: 3rem;
+  pointer-events: none;
+}
+
+.title-post{
+  font-size: 1rem;
+  padding: 1rem;
+  pointer-events: none;
+  display: flex;
+}
+
+.title-post::before {
+  counter-increment: post;
+  content: ""counter(post)".";
+  padding-right: 1rem;
+  font-family: "questa-slab", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.content-post{
+  display: inline-grid;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 800px) {
+	
+}	
