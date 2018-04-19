@@ -47,7 +47,8 @@ layout: page
             </ol>
         </details>
     </aside>
-    <article>
+    </article>
+    <article class="post">
         <header class="header-post">
             <h1 class="title-post" id="{{ post.title | escape }}">{{ post.title | replace:'_', ' ' | escape }}</h1>
         </header>
@@ -59,8 +60,7 @@ layout: page
                 {{ post.excerpt }}
                 {%- endif -%}
         </section>
-    </article>
-    <aside>
+        <aside>
         <details class="menu-process">
             <summary>
                 <h1>Process</h1>
@@ -71,6 +71,7 @@ layout: page
             </ol>
         </details>
     </aside>
+    </article>
 </article>
 {%- endif -%}
 </article>

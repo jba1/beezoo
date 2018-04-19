@@ -30,7 +30,7 @@
  
  body {
    margin: 0;
-   font-family: "questa-slab", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   font-family: "questa", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    font-size: 1rem;
    font-weight: 400;
    line-height: 1;
@@ -363,19 +363,6 @@ details{
   -ms-user-select: none;
   user-select: none;
   width: auto;
-}
-
-summary{
-  display: list-item;
-  cursor: pointer;
-  outline:none;
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  color: #080000;  
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  padding: 1rem;
 }
 
 details ol{
@@ -860,8 +847,6 @@ body{
   grid-template-columns: [site-nav] auto [site-main] 1fr;
   grid-template-rows: [site-header] auto [site-content] auto [site-footer] auto;
   grid-template-areas: "nav nav" "main main" "footer footer";
-  padding: 1rem;
-  margin: 1rem 4rem;
 }
 
 nav{
@@ -883,7 +868,7 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #DD1D3C;
+  /*background-color: #DD1D3C;*/
 }
 
 nav a img{
@@ -932,13 +917,16 @@ details{
 }
 
 summary{
+  display: list-item;
+  cursor: pointer;
+  outline:none;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #080000;  
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
 }
 
 details summary:hover{
@@ -973,6 +961,11 @@ h1 {
   text-transform: uppercase;
 }
 
+p{
+  line-height: 1.45rem;
+  max-width: 48rem;
+}
+
 .menu-project h1{
   padding-left: 1rem;
 }
@@ -985,24 +978,27 @@ h1 {
 .nav-project{
   top: 0;
   z-index: 7;
-  height: 3.4rem;
+  height: 2.65rem;
 }
 
 .menu-project{
-  border-bottom: 0.2rem solid #080000;
-  border-top: 0.2rem solid #080000;
+  border-bottom: 0.15rem solid #080000;
+  border-top: 0.15rem solid #080000;
 }
 
 details.menu-project[open] summary {
-  border-bottom: 0.2rem solid #080000;
+
 }
 
 .menu-project ul{
   background-color: #FDFDFB;
+  position: absolute;
+  width: 100%;
+  border-bottom: .15rem solid #080000;
 }
 
 .menu-project li{
-  border-bottom: 0.1rem solid #080000;
+  border-top: 0.15rem solid #080000;
   padding: 0 0 0 3.6rem;
 }
 
@@ -1018,7 +1014,7 @@ details.menu-project[open] summary {
 .project{
   position: sticky;
   top: 0;
-  padding-left: 2.6rem;
+  padding-left: 2.5rem;
   z-index: auto;
   width: 100%;
 }
@@ -1043,33 +1039,37 @@ details.menu-project[open] summary {
 
 /*Post*/
 .nav-post{
-  top: 3.4rem;
+  top: 2.65rem;
   z-index: 6;
-  height: 3rem;
+  height: 2.65rem;
 }
 
 .menu-post{
   z-index: 2;
-  border-bottom: 0.2rem solid #080000;
+  border-bottom: 0.15rem solid #080000;
+  border-left: 0.1rem solid #080000;
 }
 
 .menu-post[open] summary {
-  border-bottom: 0.1rem solid #080000;
+
 }
 
 .menu-post ol{
   background-color: #FDFDFB;
-  border-top: 0.1rem solid #080000;
+  border-top: 0.15rem solid #080000;
   padding: 0;
 }
 
 .menu-post li{
-  border-bottom: 0.1rem solid #080000;
+  border-bottom: 0.15rem solid #080000;
   padding: 0 0 0 3.6rem;
+}
+.menu-post li:last-child {
+  border-bottom: none;
 }
 
 .menu-post a{
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1086,14 +1086,15 @@ details.menu-project[open] summary {
 .header-post{
   position: sticky;
   z-index: 6;
-  top: 3.4rem;
-  height: 3rem;
+  top: 2.5rem;
   pointer-events: none;
+  border-top: 0.15rem solid #080000;
+  border-bottom: 0.15rem solid #080000;
 }
 
 .title-post{
   font-size: 1rem;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   pointer-events: none;
   display: flex;
 }
@@ -1107,6 +1108,7 @@ details.menu-project[open] summary {
 
 .content-post{
   display: inline-grid;
+  padding: 2rem 1rem;
 }
 
 /*Media Queries*/
