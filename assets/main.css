@@ -843,6 +843,7 @@ nav details{
   grid-row-end: site-content;
   grid-area: main;
   margin: 0 2rem 0;
+  border-top: calc(1rem / 3) solid #2b2a27;
   border-bottom: calc(1rem / 3) solid #2b2a27;
 }
 
@@ -1004,13 +1005,11 @@ p a{
 .nav-project{
   z-index: 7;
   top: 0rem;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   background-color: #FDFDFB;
 }
 
 .menu-project{
-  border-top: calc(1rem / 3) solid #2b2a27;
-  padding-top: 0.25rem;
 }
 
 
@@ -1092,7 +1091,7 @@ p a{
 
 /*Post*/
 .nav-post{
-  top: 3.333rem;
+  top: 3.25rem;
   height: 2.125rem;
   z-index: 6;
 }
@@ -1154,8 +1153,8 @@ p a{
 }
 
 .menu-post a:before {
-  counter-increment: post -1;
-  content: ""counter(post)"";
+  counter-increment: postlink -1;
+  content: ""counter(postlink)"";
   letter-spacing: 0;
   font-family: "bressay", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: #2b2a27;
@@ -1177,7 +1176,7 @@ p a{
 .header-post{
   position: sticky;
   background-color: #FDFDFB;
-  top: 3.333rem;
+  top: 3.25rem;
   pointer-events: none;
 }
 

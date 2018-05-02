@@ -4,7 +4,7 @@ layout: page
 <article class="project" style="counter-reset: post {{ site.categories[page.category].size | minus: 'site.tags[log].size' }}">
 {{ content }}
 {%- if site.posts.size > 0 -%}
-<nav class="nav-post">
+<nav class="nav-post" style="counter-reset: postlink {{ site.categories[page.category].size | minus: 'site.tags[log].size' }}">
     <details class="menu-post">
         <summary></summary>
         <ol reversed>
