@@ -643,8 +643,8 @@ p a{
 /*Project*/
 .nav-project{
   z-index: 7;
-  top: 0rem;
-  padding-top: 0.5rem;
+  top: -1px;
+  padding-top: 9px;
   background-color: #FDFDFB;
 }
 
@@ -894,24 +894,6 @@ p a{
 /*Media Queries*/
 @media only screen and (max-width: 600px) {
 
-  .page-content{
-    margin: 0 0rem 0;
-  }
 
-  .nav-project{
-    padding-top: 0;
-  }
-
-  .nav-post{
-    top: 2.8rem;
-  }
-
-  .header-post{
-    top: 2.8rem;
-  }
-
-  .content-post{
-    padding: 1rem 2rem 4rem 0;
-  }
 	
 }	
