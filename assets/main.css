@@ -70,14 +70,14 @@
  
  h1, h2, h3, h4, h5, h6 {
    margin-top: 0;
-   margin-bottom: 0.5rem;
-   -webkit-margin-before: 0em;
-   -webkit-margin-after: 0em;
+   margin-bottom: 0;
+   -webkit-margin-before: 0;
+   -webkit-margin-after: 0;
  }
  
  p {
    margin-top: 0;
-   margin-bottom: 1rem;
+   margin-bottom: 0;
  }
  
  abbr[title],
@@ -385,7 +385,6 @@ details ol{
   -ms-user-select: text;
   user-select: text;
   padding: 1rem;
-  border-top: 0.1rem solid #31302c;
   background-color: #FDFDFB;
 }
 
@@ -513,7 +512,7 @@ summary{
   cursor: pointer;
   outline:none;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  padding: 0.625rem 0rem 0.675rem;
+  padding: 0.6rem 0rem 0.6rem;
   line-height: 1rem;
   font-size: 0.8rem;
   color: #31302c;
@@ -524,6 +523,7 @@ summary{
 }
 
 .menu-post summary{
+  border-bottom: 0.1rem solid #31302c;
 }
 
 .menu-post summary:hover{
@@ -536,17 +536,6 @@ summary{
   background-color: #fff70033;
   opacity: 0.75;
   color: black;
-}
-
-details ol{
-  -webkit-touch-callout: text;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-  padding: 1rem;
-  border-top: 0.1rem solid #31302c;
-  background-color: #FDFDFB;
 }
 
 article{
@@ -728,13 +717,12 @@ p a{
 /*Post*/
 .nav-post{
   top: 2.9rem;
-  height: 2.4rem;
+  height: 2.3rem;
   z-index: 6;
 }
 
 .menu-post{
   z-index: 2;
-  border-bottom: 0.1rem solid #31302c;
   -webkit-box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);
   box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);
@@ -747,10 +735,24 @@ p a{
 
 }
 
+.menu-post summary span{
+    display: inline-grid;
+    font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 0.9rem;
+    vertical-align: -.01rem;
+    color: #2b2a27;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
 .menu-post ol{
   background-color: #fcfcfa;
-  border-top: 0.1rem solid #31302c;
   padding: 0;
+  border-bottom: 0.1rem solid #31302c;
   -webkit-box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);
   box-shadow: 0 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.1), 0rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.08), 0 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.04);

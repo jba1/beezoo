@@ -6,7 +6,7 @@ layout: page
 {%- if site.posts.size > 0 -%}
 <nav class="nav-post" style="counter-reset: postlink {{ site.categories[page.category].size | minus: 'site.tags[log].size' }}">
     <details class="menu-post">
-        <summary></summary>
+        <summary><span>&nbsp;</span></summary>
         <ol reversed>
         {% for post in site.categories[page.category] %}
         {% if post.tags contains 'post' %}
