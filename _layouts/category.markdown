@@ -48,8 +48,9 @@ layout: page
     </aside>
     </article>
     <article class="post">
+        <div class="spacer-post" id="{{ post.title | escape }}"></div>
         <header class="header-post">
-            <h1 class="title-post" id="{{ post.title | escape }}">{{ post.title | replace:'_', ' ' | escape }}</h1>
+            <h1 class="title-post"><span>{{ post.title | replace:'_', ' ' | escape }}</span></h1>
         </header>
         <section class="content-post">
         {%- assign date_format = site.minima.date_format | default: "%d %b %Y %R%Z" -%}
