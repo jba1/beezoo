@@ -25,7 +25,13 @@ show_excerpts: true
 excerpt_separator: <!--excerpt-->
 header_pages:
   - about.md
-  - category/testing.markdown
+  - category/web-design-for-clients.markdown
+  - category/video-production-for-clients.markdown
+  - category/graphic-design-for-clients.markdown
+  - category/halftone-web-graphics.markdown
+  - category/herbarium.markdown
+  - category/type-design.markdown
+  
   - tag/log.markdown
 
 # Build settings

@@ -34,9 +34,12 @@
    font-size: 1rem;
    font-weight: 400;
    line-height: 1;
+   position: relative;
+   top: -5.3rem;
    color: #2b2a27;
    text-align: left;
    background-color: #FDFDFB;
+   overflow-x: hidden;
    max-width: 52rem;
  }
  
@@ -206,8 +209,13 @@
    border-style: none;
    max-height: calc(100vh - 5.9rem);
    max-width: 100%;
+   margin: 0 auto;
    width: auto;
    height: auto;
+ }
+
+ .img-small {
+   width: 30%;
  }
  
  svg:not(:root) {
@@ -483,7 +491,6 @@ nav details{
   grid-row-end: site-content;
   grid-area: main;
   margin: 0 2rem 0;
-  border-top: calc(1rem / 3) solid #31302c;
   border-bottom: calc(1rem / 3) solid #31302c;
 }
 
@@ -605,14 +612,14 @@ h1 {
   font-size: 0.85rem;
   text-decoration: none;
   font-weight: 700;
-  line-height: 0.9rem;
-  vertical-align: -.01rem;
+  line-height: 0.85rem;
   color: #2b2a27;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
 p, .content-post ol{
+  display: grid;
   line-height: 1.9rem;
   font-size: 1.2rem;
 }
@@ -819,10 +826,10 @@ p a{
 }
 
 .title-post{
-  padding: 0.625rem 0rem 0.675rem;
+  padding: 0.6rem 0rem 0.6rem;
   pointer-events: none;
   display: inline-block;
-  line-height: 1rem;
+  height: 2.2rem;
 }
 
 .title-post::before {
@@ -832,7 +839,7 @@ p a{
   letter-spacing: 0;
   font-family: "bressay", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.8rem;
-  line-height: 1.1rem;
+  line-height: .95rem;
 }
 
 .title-post span{
@@ -894,6 +901,16 @@ p a{
 }
 
 /*Media Queries*/
+@media (hover: none) {
+  .menu-project summary:hover{
+    background-color: #fdfdfb;
+  }
+
+  .menu-post summary:hover{
+    background-color: #fdfdfb;
+  }
+}
+
 @media only screen and (max-width: 600px) {
 
 
