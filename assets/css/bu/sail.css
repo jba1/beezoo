@@ -1,0 +1,164 @@
+/*Link Color Settings*/
+.ldefault:visited{
+  color: #fefefe;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.ldefault:hover{
+  color: #fefefe;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.lred, .lred:hover, .lred:visited{
+  color: #E0533B;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.lorange, .lorange:hover, .lorange:visited{
+  color: #EBB54A;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.lgreen, .lgreen:hover, .lgreen:visited{
+  color: #94ed6b;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.lblue, .lblue:hover, .lblue:visited{
+  color: #73a6fc;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.ared, .ared:hover, .ared:visited{
+  color: #E0533B;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.aorange, .aorange:hover, .aorange:visited{
+  color: #EBB54A;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.agreen, .agreen:hover, .agreen:visited{
+  color: #94ed6b;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.ablue, .ablue:hover, .ablue:visited{
+  color: #73a6fc;
+  -webkit-transition: color, 0.3s ease-out;
+  -moz-transition: color, 0.3s ease-out;
+  -o-transition: color, 0.3s ease-out;
+  transition: color, 0.3s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+/* BODY================================================== */
+	.testblock {
+		display: inline-block;
+		position: relative;
+		width: calc(100% / 3);
+	}
+
+	.testblock:after {
+		content: '';
+		display: block;
+		margin-top: 100%;
+	}
+
+	.testunit{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: silver;
+	}
+
+  #svg{
+    display: grid;
+  }
+
+  .row svg{
+    margin: 0 auto;
+  }
+
+	#generator {
+		position: relative;
+
+	}
+
+	.row{
+		overflow-x: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	}
+
+	.thumbnail:before {
+		content:'';
+		float:left;
+		padding-top:100%;
+	}
+
+	.thumbnail {
+		width: calc(100% / 3);
+		position: relative;
+		float: left;
+	}
+
+  .col-md-3{
+    width: 100%;
+    max-width: 36.7rem;
+  }
+
+  #pattern-options{
+    width: 100%;
+  }
+
+  .form-group {
+    width: 100%;
+    display: grid;
+  }
+
+  label{
+    margin: 1rem 0;
+  }

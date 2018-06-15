@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html id="construction" lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffe06a"/>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/assets/main.css">
+    <meta name=“robots” content=“none,” “noarchive,” “nocache,” “nosnippet”>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'ypy1kqn',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+    <!--Polyfill for Intersection Observer support in safari and mobile browsers, req for lazyImages-->
+    <script src="/assets/js/intersection-observer.js" defer></script>
+    <script src="/assets/js/lazy-images.js" defer></script>
+    <script src="/assets/js/details-toggle.js" async></script>
+    <!--page-specific css and js-->
+    
+    
+    
+  </head>
+<body>
+        <style>
+            #construction {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            -webkit-font-smoothing: antialiased;
+            background: #fcfcfc;
+            }
+
+            #construction body {
+            height: 100vh;
+            width: 100%;
+            margin: 0 auto;
+            overflow-x: hidden;
+            position: relative;
+            background-color: transparent;
+            max-width: unset;
+            }
+
+            #construction div{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+            @-webkit-keyframes foutc {
+            from   {opacity: 0;}
+            to     {opacity: 0.8;}
+            }
+
+            @keyframes foutc {
+            from   {opacity: 0;}
+            to     {opacity: 0.8;}
+            }
+
+            .wf-loading#construction h1{
+            opacity: 0;
+            }
+
+            .wf-active#construction h1{
+            -webkit-animation: foutc .2s ease-in 0s 1 normal none running;
+            animation: foutc .2s ease-in 0s 1 normal none running;
+            }
+
+            .wf-inactive#construction h1{
+            opacity: 0.8;
+            }
+
+            #construction h1{
+            font-size: 3rem;
+            color: black;
+            filter: blur(0.02rem);
+            }
+
+            #bgvid {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100vh;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+            }
+        </style>
+        
+        <div>
+  <h1>BEEZOO</h1>
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+                $(window).on('beforeunload', function() {
+                    $("video").hide();
+                    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                       $("video").remove();
+                    };
+                });
+        </script>
+        <video autoplay muted loop poster="/assets/media/b-bee.png" id="bgvid">
+            <source src="/assets/media/b-bee.mp4" type="video/mp4">
+        </video>
+  </body>
+
+</html>
