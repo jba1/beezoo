@@ -564,7 +564,6 @@ p a{
   background-image: url(/assets/media/bg-2.svg);
   background-repeat: repeat;
   background-size: .15rem;
-  top: -6.41rem;
 }
 
 /*Project*/
@@ -615,9 +614,6 @@ p a{
   border-top-right-radius: .1rem;
   border-right: .075rem solid #4e4e4c;
   border-left: .05rem dotted #4e4e4c;
-}
-
-.menu-project:hover{
 }
 
 .menu-project[open] summary > span{
@@ -698,6 +694,7 @@ p a{
   width: 100%;
   position: relative;
   padding: 0 0rem 0 2.45rem;
+  top: -6.4rem;
 }
 
 .page{
@@ -739,17 +736,9 @@ p a{
   border-bottom-left-radius: .125em;
   }
 
-.nav-post:hover{
-  height: 2.125rem;
-}
-
 .menu-post{
   z-index: 2;
   height: 2.15rem;
-}
-
-.menu-post:hover{
-  height: 2.175rem;
 }
 
 details > summary::-webkit-details-marker {
