@@ -9,9 +9,7 @@
     <main class="page-content" aria-label="Content">
         <nav class="nav-project">
             <details class="menu-project">
-                <summary>
-                  <h1 id="{{ page.title | replace:'_', ' ' | escape }}">{{ page.title | escape }}</h1>
-                </summary>
+                <summary><span></span><h1 id="{{ page.title | replace:'_', ' ' | escape }}"><span>{{ page.title | escape }}</span></h1></summary>
                 {%- if page_paths -%}
                 <ul>
                   {%- for path in page_paths -%}

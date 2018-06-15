@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Mixology"
+date:   2018-06-03 11:00:00 -0400
+category: fr-distilling
+tags: [post, Editorial design, Film]
+---
+<div class="post-info">
+  <div class="headline">
+    <h2>Cocktail recipes booklet design</h2>
+  </div>
+  <div class="post-intro">
+    <p></p>
+  </div>
+</div>
+<figure class="img-grid">
+  <img class="lazy full" src="/assets/media/fr-distilling/mix_booklet-placeholder.svg" data-src="/assets/media/fr-distilling/mix_booklet-p1.jpg">
+  <img class="lazy full" src="/assets/media/fr-distilling/mix_booklet-placeholder.svg" data-src="/assets/media/fr-distilling/mix_booklet-p2.jpg">
+  <figcaption>
+    Pages from the recipe booklet
+  </figcaption>
+</figure>

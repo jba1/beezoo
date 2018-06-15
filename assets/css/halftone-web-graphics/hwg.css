@@ -1,0 +1,62 @@
+.img-stack{
+  position: relative;
+  width: 100%;
+}
+
+.img-stack img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.img-stack img:first-child{
+  position: inherit;
+}
+
+img[src$=".svg"] {
+    width: 100%;
+}
+
+.lazy-stack{
+  background-color: gray;
+}
+
+@keyframes layer-split-1 {
+  0%  {transform: translate(0,0)}
+  10%  {transform: translate(0,0)}
+  40%  {transform: translate(1.6rem,.35rem)}
+  60%  {transform: translate(1.6rem,.35rem)}
+  67% {transform: translate(0,0)}
+  100%{transform: translate(0,0)}
+}
+
+@keyframes layer-split-2 {
+  0%  {transform: translate(0,0)}
+  10%  {transform: translate(0,0)}
+  40%  {transform: translate(-1.6rem,-.35rem)}
+  60%  {transform: translate(-1.6rem,-.35rem)}
+  67% {transform: translate(0,0)}
+  100%{transform: translate(0,0)}
+}
+
+@keyframes wobble-1 {
+  0%  {transform: translate(0,0)}
+  25%  {transform: translate(-20px,10px)}
+  35%  {transform: translate(-20px,10px)}
+  49% {transform: translate(7.5px,0)}
+  53% {transform: translate(-1px,-3px)}
+  54% {transform: translate(0,0)}
+  100%{transform: translate(0,0)}
+}
+
+@keyframes wobble-2 {
+  0%  {transform: translate(0,0)}
+  25%  {transform: translate(20px,-10px)}
+  35%  {transform: translate(20px,-10px)}
+  49% {transform: translate(-7.5px,0)}
+  53% {transform: translate(1px,3px)}
+  54% {transform: translate(0,0)}
+  100%{transform: translate(0,0)}
+}

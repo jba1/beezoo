@@ -1,40 +1,35 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li class="email">
-              <a href="mailto:{{ site.email }}"><span>{{ site.email }}</span></a>
-            </li>
-            {%- endif -%}
-            {%- if site.phone -%}
-            <li class="phone">
-              <a href="tel:{{ site.phone }}"><span>{{ site.phone }}</span></a>
-            </li>
-            {%- endif -%}
-          </ul>
-        </div>
-  
-        <div class="footer-col footer-col-2">
-          {%- include social.html -%}
-        </div>
-  
-        <div class="footer-col footer-col-3">
-          <p>{{- site.description | escape -}}</p>
-        </div>
-      </div>
-  
+<video autoplay="" muted="" loop="" poster="/assets/media/b-bee.png" id="bgvid">
+            <source src="/assets/media/b-bee.mp4" type="video/mp4">
+</video>
+<footer>
+  <div class="footer-wrapper">
+    <p class="name">
+      {%- if site.author -%}
+        {{ site.author | escape }}
+      {%- else -%}
+        {{ site.title | escape }}
+      {%- endif -%}
+    </p>
+    <ul class="contact-list">
+      {%- if site.email -%}
+      <li class="email">
+        <a href="mailto:{{ site.email }}"><span>{{ site.email }}</span></a>
+      </li>
+      {%- endif -%}
+      {%- if site.phone -%}
+      <li class="phone">
+        <a href="tel:{{ site.phone }}"><span>{{ site.phone }}</span></a>
+      </li>
+      {%- endif -%}
+      {%- if site.site_repository -%}
+      <li class="social">
+        <a href="{{ site.site_repository }}"><span>Site Repository (GitHub)↗</span></a>
+      </li>
+      {%- endif -%}
+    </ul>
+    {%- if site.description -%}
+    <div class="description">
+      <p>{{- site.description | escape -}}</p>
     </div>
-  
-  </footer>
+    {%- endif -%}
+</footer>

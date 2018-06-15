@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Apparel"
+date:   2018-06-03 13:33:00 -0400
+category: sobe
+tags: [post, Web Design, Illustration, Product Design]
+---
+<div class="post-info">
+  <div class="headline">
+    <h2>Apparel design + ecommerce site design and development for SoBe</h2>
+    <a href="http://shop.sobe.com/"><span><s>Visit (shop.sobe.com)↗</s></span></a>
+  </div>
+  <div class="post-intro">
+    <p></p>
+  </div>
+</div>
+<figure>
+  <img class="lazy full" src="/assets/media/sobe/site_placeholder.svg" data-src="/assets/media/sobe/apparel_store.jpg">
+  <figcaption>
+    We built the shop as a custom Shopify template, with the same layout and style as the brand site. This maintained a seamless user experience as visitors moved between Sobe.com and Shopify.
+  </figcaption>
+</figure>
+<figure class="img-grid fourths">
+  <img class="lazy" src="/assets/media/sobe/apparel_placeholder-1.svg" data-src="/assets/media/sobe/apparel_design-1.png">
+  <img class="lazy" src="/assets/media/sobe/apparel_placeholder-1.svg" data-src="/assets/media/sobe/apparel_design-2.png">
+  <img class="lazy shadow" src="/assets/media/sobe/apparel_placeholder-2.svg" data-src="/assets/media/sobe/apparel_design-3.jpg">
+  <img class="lazy" src="/assets/media/sobe/apparel_placeholder-2.svg" data-src="/assets/media/sobe/apparel_design-4.png">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-3.svg" data-src="/assets/media/sobe/apparel_design-1_mockup.png">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-3.svg" data-src="/assets/media/sobe/apparel_design-3_mockup.png">
+  <figcaption>
+    Design concepts and mockups
+  </figcaption>
+</figure>
+<figure class="img-grid fourths">
+  <img class="lazy full" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_model-1.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_product-2.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-5.svg" data-src="/assets/media/sobe/apparel_product-5.jpg">
+  <img class="lazy full" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_product-1.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_model-2.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_product-6.jpg">
+  <img class="lazy full" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_product-4.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_product-3.jpg">
+  <img class="lazy one-half" src="/assets/media/sobe/apparel_placeholder-4.svg" data-src="/assets/media/sobe/apparel_model-3.jpg">
+  <figcaption>
+    Production apparel
+  </figcaption>
+</figure>
