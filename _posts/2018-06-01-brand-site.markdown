@@ -8,7 +8,7 @@ tags: [post, Web Design]
 <div class="post-info">
   <div class="headline">
     <h2>SoBe.com site design and development</h2>
-    <a href="http://sobe.com/"><span>Visit (sobe.com)↗</span></a>
+    <a href="http://sobe.com/"><span>Visit (sobe.com)</span></a>
   </div>
   <div class="post-intro">
     <p></p>

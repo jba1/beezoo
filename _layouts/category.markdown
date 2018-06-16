@@ -11,10 +11,6 @@ layout: page
 <nav class="nav-post" style="counter-reset: postlink {{ site.categories[page.category].size | plus: 1 }}">
     <details class="menu-post">
         <summary>
-          <span class="first"></span>
-          <span class="second"></span>
-          <span class="third"></span>
-          <span class="fourth"></span>
         </summary>
         <ol reversed>
         {% for post in site.categories[page.category] %}

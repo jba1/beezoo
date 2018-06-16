@@ -7,13 +7,13 @@ tags: [post, Web Design, Identity Design]
 ---
 <div class="post-info">
   <div class="headline">
-    <h2>Generative identity and website for Boston University's Software and Application Innovation Lab</h2>
-    <a href="https://sail.bu.edu/"><span>Visit (sail.bu.edu)↗</span></a>
+    <h2>Generative identity and website for Boston University’s Software and Application Innovation Lab</h2>
+    <a href="https://sail.bu.edu/"><span>Visit (sail.bu.edu)</span></a>
   </div>
   <div class="post-intro">
-    <p>SAIL is a computer science research institute. In order to attract new students and staff to the traditionally stuffy, rigid vertical, SAIL reached out to Beezoo to bring a fresh and, most importantly, visually creative approach to their identity and online presence.</p>
-    <p>Taking the idea of the combination of visuals and technology, we created an identity system that was both visually simple yet contemporary, pulling inspiration from international maritime signal flags (also called code flags) and giving a subtle nod to the institute's name. Working off the client request of having a generative element to their identity, we devised the system seen below, which also acted as the new site's backdrop.</p>
-    <p>The tool offers visitors the ability to play with SAIL's identity, letting each individual take the baseline identity and make it their own in a dynamic, engaging, and (critically) non-rigid way. This achieved the client's brand image goal of encouraging people in the stiff world of computer science to play around, even if for just a little bit.</p>
+    <p><abbr>SAIL</abbr> is a computer science research institute. In order to attract new students and staff to the traditionally stuffy, rigid vertical, <abbr>SAIL</abbr> reached out to <abbr>BEEZOO</abbr> to bring a fresh and, most importantly, visually creative approach to their identity and online presence.</p>
+    <p>Taking the idea of the combination of visuals and technology, we created an identity system that was both visually simple yet contemporary, pulling inspiration from international maritime signal flags (also called code flags) and giving a subtle nod to the institute’s name. Working off the client request of having a generative element to their identity, we devised the system seen below, which also acted as the new site’s backdrop.</p>
+    <p>The tool offers visitors the ability to play with <abbr>SAIL’s</abbr> identity, letting each individual take the baseline identity and make it their own in a dynamic, engaging, and (critically) non-rigid way. This achieved the client’s brand image goal of encouraging people in the stiff world of computer science to play around, even if for just a little bit.</p>
   </div>
 </div>
 <figure class="img-grid fourths">
@@ -27,7 +27,7 @@ tags: [post, Web Design, Identity Design]
   <div class="col-md-3 full">
     <hr>
     <h3>Flag Creator</h3>
-    <p>Click on a sail to change its color. Alt + Click on a block to rotate.</p>
+    <p>Click on any segment to change its color. Alt + Click on a block to rotate.</p>
   </div>
   <div class="full row">
     <div id="svg" class="col-md-9">
