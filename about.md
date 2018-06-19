@@ -7,21 +7,11 @@ permalink: /about/
   <div class="page-info">
     <div class="headline">
       <h2>Jack Andrew</h2>
-      <span><a href="mailto:Jack@beezoo.nyc">jack@beezoo.nyc</a></span>
     </div>
     <div class="post-intro">
-      <p></p>
-      <h3>Selected Clients</h3>
-      <ul>
-        <li><span>PepsiCo</span></li>
-        <li><span>Boston University</span></li>
-        <li><span>Firestone & Robertson Distilling Co.</span></li>
-        <li><span>Lemon Lemon Sparkling Lemonade</span></li>
-        <li><span>JCJ Architecture</span></li>
-        <li><span>Aquafina</span></li>
-        <li><span>SoBe</span></li>
-        <li><span>HP</span></li>
-      </ul>
+      <p>Hi, I'm Jack Andrew, a designer and developer living in Brooklyn. As co-founder of BEEZOO, a small, full-service design studio, I've completed web design, web development, illustration, film, and other projects across the US and Canada. Past clients include PepsiCo, Boston University, Firestone & Robertson Distilling Co., Lemon Lemon Sparkling Lemonade, JCJ Architecture, Aquafina, SoBe, and HP.</p>
+      <p>In addition to serving as a collection of my work, this site is an ongoing experiment. It's built with Jekyll, and the code is available <a href="https://github.com/beezoo/beezoo">on GitHub</a>.</p>
+      <p>If you would like to speak about my work or any project of yours, please feel free to reach out at <a href="mailto:Jack@beezoo.nyc">JackBAndrew@gmail.com</a></p>
     </div>
   </div>
 </section>
