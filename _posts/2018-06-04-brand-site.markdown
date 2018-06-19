@@ -11,8 +11,7 @@ tags: [post, Web Design]
     <a href="http://www.lemonlemonsparkling.ca/"><span>Visit (lemonlemonsparkling.ca)</span></a>
   </div>
   <div class="post-intro">
-    <p>Pepsi launched Lemon Lemon Sparkling Lemonade in North America in 2016. Bridging the gap between traditional soft drinks and the burgeoning water trend, the beverage targeted customers who enjoy bold, refreshing flavors in their beverages, but are also making healthful choices about what they choose to purchase.</p>
-    <p>We were approached by Pepsi to design and build a custom WordPress website to launch side-by-side with the new lemon beverage. The site’s aesthetic reflects the brand palate, using a popping yellow and crisp white meant to convey the brand’s refreshing and fun place in the world. The site featured multilingual functionality, customizable full bleed imagery, embedded social media feeds for all leading services, and adhered to the stringent security protocols of the global brand.</p>
+    <p><abbr>Beezoo</abbr> was approached by PepsiCo to help them launch Lemon Lemon, a new line of sparkling lemonade. We were tasked with developing the Lemon Lemon brand website, which needed to meet PepsiCo’s stringent standards for performance, accessibility, and security. The new site was developed as a custom WordPress theme, and focuses on elevating the brand’s bold packing, while providing a seamless and straightforward experience for visitors. Its simple and elegant design uses full width images and crisp white backgrounds that reflect Lemon Lemon’s focus on natural ingredients and wholesome experiences.</p>
   </div>
 </div>
 <figure class="img-grid">

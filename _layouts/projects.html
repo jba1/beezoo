@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="home">
+{{ content }}
+{%- if site.categories.size > 0 -%}
+  {%- for category in site.categories -%}
+  {% assign ccat = category[0] %}
+  {% for post in site.categories[ccat] reversed %}
+  <a href="{{site.baseurl}}/category/{{ccat}}.html">
+    <article class="category">
+      {% if post.preview_img_contain %}
+        <div class="preview-category" style="background-size: contain; background-image: url('/assets/media/{{ post.category }}/{{ post.preview_img_contain }}')"></div>
+      {% else if post.preview_img %}
+        <div class="preview-category" style="background-image: url('/assets/media/{{ post.category }}/{{ post.preview_img }}')"></div>
+      {% endif %}
+      <section class="content-category">
+        <h1 class="title-post">{{ post.title | replace:'_', ' ' | escape }}</h1>
+        {%- if post.tags.size > 0 -%}<span class="tags-post">{% for tag in post.tags %}{% if post.tags.last != tag %}{{tag}} / {% else %}{{tag}}</span>{% endif %}
+        {% endfor %}
+        {% endif %}
+      </section>
+    </article>
+  </a>
+  {% break %}
+  {% endfor %}
+  {%- endfor -%}
+  {%- endif -%}
+</article>

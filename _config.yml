@@ -8,6 +8,7 @@ site_repository: https://github.com/beezoo/beezoo
 show_excerpts: true
 excerpt_separator: <!--excerpt-->
 header_pages:
+  - home.md
   - about.md
   - category/bu.markdown
   - category/fr-distilling.markdown

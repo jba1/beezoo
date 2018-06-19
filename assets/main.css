@@ -30,7 +30,7 @@
 
  body {
    margin: 0 auto;
-   font-family: "cardea", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    font-size: 1rem;
    font-weight: 400;
    line-height: 1;
@@ -305,7 +305,7 @@
    outline: none;
    padding: .25rem .5rem;
    border: .075rem solid #4e4e4c;
-   font-family: "bressay", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    font-size: .9rem;
    font-weight: 500;
    line-height: 1.35;
@@ -528,9 +528,9 @@ summary{
 
 h1 {
   display: inline-grid;
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.79rem;
+  font-size: .85rem;
   text-decoration: none;
   font-weight: 600;
   line-height: 1rem;
@@ -540,15 +540,15 @@ h1 {
 }
 
 h3{
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: #2b2a27;
   font-weight: 600;
-  line-height: 1rem;
-  padding: .5rem 0;
+  line-height: 1.5rem;
+  padding: 1rem 0;
   letter-spacing: 0.02rem;
-  word-spacing: 0.05rem;
+  word-spacing: 0.03rem;
 }
 
 p a{
@@ -568,6 +568,76 @@ p a{
   background-size: .15rem;
 }
 
+/*Home*/
+.home{
+  position: relative;
+  width: 100%;
+  display: grid;
+  padding: 2rem .125rem 6.4rem 2.125rem;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.category{
+  width: 100%;
+  opacity: .95;
+  border-bottom: .05rem dotted #4e4e4c;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+}
+
+.preview-category{
+  height: calc(50vh - 2rem);
+  width: 100%;
+  background-color: #ECE9E4;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+.content-category{
+  width: 100%;
+  background-color: #fdfdfe;
+  background-clip: content-box;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.content-category h1{
+  color: #004BE1;
+  padding-left: .8rem;
+}
+
+/*Single*/
+.page{
+  position: relative;
+  width: 100%;
+  display: grid;
+  padding: 2rem .125rem 6.4rem 2.125rem;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.page section{
+  width: 100%;
+  opacity: .925;
+  background-color: #fbfaf9;
+  border-bottom: .05rem dotted #4e4e4c;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+}
+
+.page-info{
+  padding: 2.8rem 10% 6rem;
+  display: flex;
+  width: 100%;
+}
+
 /*Project*/
 .nav-project{
   top: 0;
@@ -578,16 +648,16 @@ p a{
 }
 
 .menu-project{
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
   border-top: .05rem dotted #4e4e4c;
   border-bottom: .075rem solid #4e4e4c;
   border-right: .05rem dotted #4e4e4c;
   border-bottom-left-radius: .1em;
   border-top-right-radius: .15rem;
   border-bottom-right-radius: .1rem;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
 }
 
 .menu-project summary{
@@ -608,7 +678,8 @@ p a{
 }
 
 .menu-project h1{
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
+  background-clip: content-box;
 }
 
 .menu-project h1 span{
@@ -634,12 +705,12 @@ p a{
 }
 
 .menu-project li{
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
   border-left: .075rem solid #4e4e4c;
   border-right: .075rem solid #4e4e4c;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
   list-style-type: none;
   width: 100%;
   display: inline-grid;
@@ -656,13 +727,13 @@ p a{
 .menu-project a{
   width: 100%;
   border-top: 0.075rem dotted #4e4e4c;
-  display: inline-grid;
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: inline-block;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.79rem;
+  font-size: .85rem;
   text-decoration: none;
-  font-weight: 600;
-  color: #2b2a27;
+  font-weight: 500;
+  color: #004BE1;
   letter-spacing: 0.02rem;
   word-spacing: 0.05rem;
   padding: 0.5rem 1rem .5rem 2.05rem;
@@ -677,7 +748,7 @@ p a{
   z-index: 11;
   top: 0;
   pointer-events: none;
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
   height: 3.4rem;
 }
 
@@ -695,13 +766,7 @@ p a{
   position: relative;
   padding: 0 0rem 0 2.125rem;
   top: -6.4rem;
-}
-
-.page{
-  width: 100%;
-  position: relative;
-  padding: 0 0rem 0 2.425rem;
-  top: -2rem;
+  counter-reset: post;
 }
 
 /*Post*/
@@ -722,9 +787,9 @@ p a{
   border-right: .075rem solid #4e4e4c;
   width: 2.15rem;
   height: 2.05rem;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
 }
 
 .title-underlay{
@@ -770,17 +835,18 @@ details > summary::-webkit-details-marker {
 .menu-post ol{
   border-right: .05rem dotted #4e4e4c;
   border-bottom: .05rem dotted #4e4e4c;
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
   background-clip: content-box;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.25);
   padding: 0;
   margin: 0;
   position: fixed;
   left: calc(5% + 2.125rem);
   right: calc(5% + 1.075rem);
   top: 4.15rem;
+  counter-reset: postlink;
 }
 
 .menu-post li{
@@ -808,11 +874,11 @@ details > summary::-webkit-details-marker {
   border-top: .05rem dotted #4e4e4c;
 }
 
-.menu-post a:before {
-  counter-increment: postlink -1;
+.menu-post a::before {
+  counter-increment: postlink;
   content: ""counter(postlink)".";
   color: #2b2a27;
-  font-family: "cardea", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-variant: lining-nums;
   font-size: 0.7rem;
   font-weight: bold;
@@ -824,13 +890,13 @@ details > summary::-webkit-details-marker {
 
 .menu-post .title-post{
   border-right: none;
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.79rem;
+  font-size: .85rem;
   text-decoration: none;
-  font-weight: 600;
   line-height: 1rem;
-  color: #2b2a27;
+  font-weight: 500;
+  color: #004BE1;
   letter-spacing: 0.02rem;
   word-spacing: 0.05rem;
   background-color: transparent;
@@ -848,11 +914,10 @@ details > summary::-webkit-details-marker {
 }
 
 .wrapper-post{
-  background-color: #fbfaf9;
   border-right: .05rem dotted #4e4e4c;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
 }
 
 .header-post{
@@ -873,19 +938,19 @@ details > summary::-webkit-details-marker {
   grid-template-columns: 2rem 1fr auto;
   align-items: baseline;
   height: 2.1rem;
-  background-color: #f6f5f7;
+  background-color: #fdfdfe;
   background-clip: content-box;
   border-bottom: 0.075rem solid #4e4e4c;
-  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
-  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
-  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  -moz-box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
+  box-shadow: 0.1rem 0.2rem 0.4rem 0rem rgba(74, 74, 72, 0.05), 0.05rem 0.125rem 0.4rem -0.15rem rgba(78, 78, 76, 0.5);
 }
 
 .header-post div div::before {
-  counter-increment: post -1;
+  counter-increment: post +1;
   content: ""counter(post)".";
   letter-spacing: 0;
-  font-family: "cardea", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.7rem;
   font-variant: lining-nums;
   font-weight: bold;
@@ -904,7 +969,7 @@ details > summary::-webkit-details-marker {
 
 .tags-post {
   padding: 0.425rem .75rem .2rem 1rem;
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   font-size: 0.7rem;
   text-decoration: none;
@@ -916,6 +981,7 @@ details > summary::-webkit-details-marker {
 }
 
 .content-post{
+  opacity: .925;
   padding: 2.8rem 10% 6rem;
   background-color: #fbfaf9;
   border-right: .075rem solid #4e4e4c;
@@ -929,7 +995,7 @@ details > summary::-webkit-details-marker {
 }
 
 .post-intro{
-  margin: .45rem 0 0 5%;
+  margin: .45rem 0 0 7.5%;
 }
 
 .post-info{
@@ -970,42 +1036,32 @@ details > summary::-webkit-details-marker {
 }
 
 .headline h2{
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  font-weight: 500;
-  line-height: 2.25rem;
+  font-weight: 600;
+  line-height: 1.95rem;
   color: #31302c;
   margin: 0 0 .5rem;
 }
 
-.post a{
-  font-size: 0.85rem;
-  color: #004BE1;
-  font-family: urw-din-semi-condensed, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  line-height: 1.95rem;
-  text-decoration: none;
-  border-bottom: none;
-}
-
-.post-info a {
-    font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.headline a {
+    font-family: "din-2014", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-style: normal;
     font-size: 0.85rem;
     text-decoration: none;
     font-weight: 600;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     letter-spacing: 0.02rem;
     word-spacing: 0.05rem;
     border-bottom: .075rem solid #004be1;
 }
 
-.headline span{
-  font-weight: 600;
-  word-spacing: 0.1rem;
+.post a{
+  color: #004BE1;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 span.post-info:only-of-type {
@@ -1137,10 +1193,10 @@ img[src$=".svg"]{
 }
 
 .shadow{
-  box-shadow: .2rem 0.125rem 0.125rem -0.125rem rgba(0, 0, 0, 0.05),
-              .2rem 0.2rem 0.125rem -0.125rem rgba(0, 0, 0, 0.04),
-              .2rem 0.4rem 0.4rem -0.5rem rgba(0, 0, 0, 0.05),
-              .2rem 0.6rem 0.4rem -0.7rem rgba(0, 0, 0, 0.02);
+  box-shadow: .2rem 0.125rem 0.125rem -0.125rem rgba(74, 74, 72, 0.05),
+              .2rem 0.2rem 0.125rem -0.125rem rgba(74, 74, 72, 0.04),
+              .2rem 0.4rem 0.4rem -0.5rem rgba(74, 74, 72, 0.05),
+              .2rem 0.6rem 0.4rem -0.7rem rgba(74, 74, 72, 0.02);
 }
 
 #bgvid {
@@ -1167,7 +1223,7 @@ footer{
 .footer-wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1.2rem 3.1rem 0 5.425rem;
+  padding: 1.2rem 5.1rem 0 6.4rem;
   width: 100%;
   position: relative;
 }
@@ -1179,9 +1235,9 @@ footer ul{
 }
 
 .name{
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   line-height: 0.8rem;
   color: #fcfbf9;
@@ -1194,9 +1250,9 @@ footer ul{
 }
 
 .contact-list a{
-  font-family: "urw-din-semi-condensed", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "din-2014-narrow", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   line-height: 0.8rem;
   color: #fcfbf9;
@@ -1241,6 +1297,10 @@ footer ul{
     font-size: 1rem;
   }
 
+  .preview-category {
+    height: calc(40vh - 2rem);
+  }
+
 }
 
 @media only screen and (max-width: 53rem) {
@@ -1264,9 +1324,9 @@ footer ul{
     margin: 1.5rem auto 1.2rem;
   }
 
-}
-
-@media only screen and (max-width: 53rem) {
+  .preview-category {
+    height: calc(40vh - 2rem);
+  }
 
   .page-content {
     padding: 0 .5rem;
@@ -1321,6 +1381,18 @@ footer ul{
 
   .contact-list a {
     font-size: .7rem;
+  }
+
+}
+
+@media only screen and (max-width: 53rem) {
+
+  .preview-category {
+    height: calc(50vh - 2rem);
+  }
+
+  .home{
+    grid-template-columns: 1fr;
   }
 
 }

@@ -1,19 +1,19 @@
 ---
 layout: page
 ---
-<article class="project" style="counter-reset: post {{ site.categories[page.category].size | plus: 1 }}">
+<article class="project">
 {{ content }}
 {%- if site.posts.size > 0 -%}
 <div class="nav-underlay-post">
   <span class="marker-underlay"></span>
   <span class="title-underlay"></span>
 </div>
-<nav class="nav-post" style="counter-reset: postlink {{ site.categories[page.category].size | plus: 1 }}">
+<nav class="nav-post">
     <details class="menu-post">
         <summary>
         </summary>
-        <ol reversed>
-        {% for post in site.categories[page.category] %}
+        <ol>
+        {% for post in site.categories[page.category] reversed %}
         {% if post.tags contains 'post' %}
             <li>
                 <a href="#{{ post.title | escape }}">
@@ -35,8 +35,8 @@ layout: page
             <summary>
                 <h1>Process</h1>
             </summary>
-            <ol reversed>
-                {% for post in site.categories[page.category] %}
+            <ol>
+                {% for post in site.categories[page.category] reversed %}
                 {% if post.tags contains 'log' %}
                 <li>
                 {%- assign date_format = site.minima.date_format | default: "%F-%H-%M-%S" -%}
@@ -88,7 +88,7 @@ layout: page
             <summary>
               <h1>Process</h1>
             </summary>
-            <ol reversed>
+            <ol>
             {% endif %}
             {% endfor %}
             </ol>

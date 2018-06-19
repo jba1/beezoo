@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NAB_Booklet"
+title:  "Culture_Change_Booklet"
 date:   2018-06-01 09:27:50 -0400
 category: pepsico
 tags: [post, Illustration, Editorial Design]
@@ -10,7 +10,7 @@ tags: [post, Illustration, Editorial Design]
     <h2>Redesign of a PepsiCo company culture booklet</h2>
   </div>
   <div class="post-intro">
-    <p></p>
+    <p>PepsiCo approached <abbr>Beezoo</abbr> to produce an illustrated booklet that could serve as a simple tool to help guide employees through changes in their internal management strategies. We developed an illustration style inspired by PepsiCo’s modern approach to the soft drink industry. Each composition summarizes an administrative principle, while integrating symbols and colors that are core to the Pepsi brand and its line of products.</p>
   </div>
 </div>
 <figure class="img-grid fourths">
