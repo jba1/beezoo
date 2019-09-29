@@ -9,9 +9,8 @@ permalink: /about/
       <h2>Jack Andrew</h2>
     </div>
     <div class="post-intro">
-      <p>Hi, I'm Jack Andrew, a designer and developer living in Brooklyn. As co-founder of BEEZOO, a small, full-service design studio, I've completed web design, web development, illustration, film, and other projects across the US and Canada. Past clients include PepsiCo, Boston University, Firestone & Robertson Distilling Co., Lemon Lemon Sparkling Lemonade, JCJ Architecture, Aquafina, SoBe, and HP.</p>
-      <p>In addition to serving as a collection of my work, this site is an ongoing experiment. It's built with Jekyll, and the code is available <a href="https://github.com/beezoo/beezoo">on GitHub</a>.</p>
-      <p>If you would like to speak about my work or any project of yours, please feel free to reach out at <a href="mailto:Jack@beezoo.nyc">JackBAndrew@gmail.com</a></p>
+      <h3>Jack Andrew</h3>
+      <p>Designer/developer living in Brooklyn. Currently working on <a href="https://duffeltag.com/">Duffletag</a>. Previously worked at <a href="https://www.conductor.com">Conductor</a>, where I led the redesign/development of conductor.com. As co-founder of BEEZOO, a small, full-service design studio, I completed web design, web development, illustration, film, and other projects across the US and Canada. Past clients include PepsiCo, Boston University, Firestone & Robertson Distilling Co., Lemon Lemon Sparkling Lemonade, JCJ Architecture, Aquafina, SoBe, and HP.</p>
     </div>
   </div>
 </section>
