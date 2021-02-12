@@ -562,7 +562,7 @@ p a{
   position: relative;
   padding: 0 calc(5% + 1.075rem) 0 5%;
   border-bottom: .075rem solid #fdfdfb;
-  background-image: url(/assets/media/bg-2.svg);
+  background-image: url(/beezoo/assets/media/bg-2.svg);
   background-repeat: repeat;
   background-size: .15rem;
 }
@@ -684,7 +684,7 @@ iframe.img-grid {
 }
 
 .menu-project summary > span{
-  background: url(/assets/media/marker.svg) no-repeat left center;
+  background: url(/beezoo/assets/media/marker.svg) no-repeat left center;
   border-left: .075rem solid #4e4e4c;
   background-size: 2rem;
   height: 2rem;
@@ -705,7 +705,7 @@ iframe.img-grid {
 }
 
 .menu-project[open] summary > span{
-  background-image: url(/assets/media/marker-open.svg);
+  background-image: url(/beezoo/assets/media/marker-open.svg);
 }
 
 .menu-project ul{
@@ -834,7 +834,7 @@ details > summary::-webkit-details-marker {
   margin: 0;
   background-origin: content-box;
   background-clip: content-box;
-  background: url(/assets/media/marker.svg) no-repeat left center;
+  background: url(/beezoo/assets/media/marker.svg) no-repeat left center;
   border-left: .075rem solid #4e4e4c;
   background-size: 2rem;
   height: 1.995rem;
@@ -846,7 +846,7 @@ details > summary::-webkit-details-marker {
 }
 
 .menu-post[open] summary{
-  background-image: url("/assets/media/marker-open.svg");
+  background-image: url("/beezoo/assets/media/marker-open.svg");
 }
 
 .menu-post ol{
