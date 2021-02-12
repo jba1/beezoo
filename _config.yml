@@ -1,10 +1,10 @@
-title: BEEZOO
+title: JBA Portfolio
 author: Jack Andrew
 email: JackBAndrew@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.beezoo.nyc" #
+url: "https://jba1.github.io/beezoo/" #
 github_username:  bz-ja
-site_repository: https://github.com/beezoo/beezoo
+site_repository: https://github.com/jba1/beezoo
 show_excerpts: true
 excerpt_separator: <!--excerpt-->
 header_pages:
